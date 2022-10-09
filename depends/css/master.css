@@ -1,0 +1,79 @@
+a{
+    text-decoration: none;
+}
+.row{
+    display: flex;
+    justify-content: center;
+}
+.gcard{
+    border-radius: var(--bs-border-radius) !important;
+    background-color: #e8e8e8;
+    overflow: hidden;
+    transition: 0.4s;
+
+}
+
+.gcard:hover{
+    box-shadow: 0 0 11px rgba(33,33,33,1);
+}
+
+.gcard .head {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    border-radius: var(--bs-border-radius) !important;
+    min-height: 100px;
+    color: white!important;
+    text-transform: uppercase;
+    font-weight: bolder;
+    position: relative;
+    overflow: hidden;
+    padding: 2rem;
+}
+
+.gcard .head .rank{
+    position: absolute;
+    color: white;
+    opacity: 0.4;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 10px;
+    font-size: 5rem;
+}
+
+.gcard .content{
+    color: black!important;
+    min-height: 115px;
+}
+
+.gcard .language-developers{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #262626
+}
+
+.gcard .language-developers .language{
+    display: flex;
+    align-items: center;
+}
+
+.gcard .language-developers .developers img{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+.gcard .language-dot{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.gcard .stats{
+    display: flex;
+    justify-content: space-between;
+    color: black!important;
+    padding: 1rem;
+}

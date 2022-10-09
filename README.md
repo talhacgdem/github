@@ -15,10 +15,12 @@
     
 ## Using
 
+  Example url => 'http://localhost/github/Repo'
   When the Repo Controller runs, it first checks if the database has any records. 
   
   If the result is false, it will update the database with the specified rest api by running the update method.
   
   Else, it will run the get method and fill the interface with the records from the database.
   
+  You can update manually, for this visit this example url => 'https://localhost/github/Repo/update'
   

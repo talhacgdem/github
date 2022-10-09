@@ -6,7 +6,7 @@
   
   Go to application/config/config.php line number 26 and edit according to the connection on your own computer
     
-  ## database configuration
+  ### database configuration
     
   First, go to application/config/database.php line number 78 and edit 'hostname', 'username', 'password' and 'database' fields to the your own connection information
     

@@ -1,4 +1,4 @@
-# github
+# Github Trending Repositories For Hitit Technology
 
 ## Initialization
 

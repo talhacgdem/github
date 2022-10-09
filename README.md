@@ -4,13 +4,13 @@
 
   ### config.php
   
-    Go to application/config/config.php line number 26 and edit according to the connection on your own computer
+  Go to application/config/config.php line number 26 and edit according to the connection on your own computer
     
   ## database configuration
     
-    First, go to application/config/database.php line number 78 and edit 'hostname', 'username', 'password' and 'database' fields to the your own connection information
+  First, go to application/config/database.php line number 78 and edit 'hostname', 'username', 'password' and 'database' fields to the your own connection information
     
-    Second, make sure you have a database with the value in the database field you edited in the first step then run BuildDatabase. Example 'http://localhost/github/Builddatabase'
+  Second, make sure you have a database with the value in the database field you edited in the first step then run BuildDatabase. Example 'http://localhost/github/Builddatabase'
     
     
 ## Using

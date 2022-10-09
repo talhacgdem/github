@@ -16,6 +16,7 @@
 ## Using
 
   Example url => 'http://localhost/github/Repo'
+  
   When the Repo Controller runs, it first checks if the database has any records. 
   
   If the result is false, it will update the database with the specified rest api by running the update method.
